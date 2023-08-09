@@ -1,7 +1,53 @@
-td{
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    border: 5px solid black;
-    font-size: 100px;
+/* Estilos generales */
+body {
+    font-family: "Caveat", cursive, Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-area {
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 300px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos para el botón de reinicio */
+#restartB {
+    display: block;
+    margin: 0 auto;
+    background-color: #5987e4;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restartB:hover {
+    background-color: #1a5bdc;
+}
+

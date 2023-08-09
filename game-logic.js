@@ -4,7 +4,7 @@
 
 var restartButton = document.querySelector('#restartB');
 var squares = document.querySelectorAll('td')
-var currentPlayer = 'X'; // Empieza con el jugador X
+var currentPlayer = '🐱'; // Empieza con el jugador 🐱
 
 
 function clearBoard() {
@@ -55,7 +55,7 @@ function changeXO() {
             alert('¡Empate!');
             clearBoard()
         } else {
-            currentPlayer = (currentPlayer === 'X') ? 'O' : 'X'; //turn to the other player
+            currentPlayer = (currentPlayer === '🐱') ? '🐶' : '🐱'; //turn to the other player
         }
     }
 }
