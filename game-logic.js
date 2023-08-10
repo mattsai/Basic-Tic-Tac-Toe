@@ -24,9 +24,9 @@ function checkWinner() {
 
     for (var combination of winCombs) {
         var [a, b, c] = combination;
-        console.log(squares[a].textContent)
-        console.log(squares[b].textContent)
-        console.log(squares[c].textContent)
+        // console.log(squares[a].textContent)
+        // console.log(squares[b].textContent)
+        // console.log(squares[c].textContent)
         if (squares[a].textContent && squares[a].textContent === squares[b].textContent && squares[b].textContent === squares[c].textContent) {
             return true; 
         }
