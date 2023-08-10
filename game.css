@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: "Caveat", cursive, Arial, sans-serif;
     background-color: #f7f7f7;
@@ -34,7 +34,7 @@ td {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Estilos para el botón de reinicio */
+
 #restartB {
     display: block;
     margin: 0 auto;
