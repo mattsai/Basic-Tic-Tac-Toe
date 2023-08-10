@@ -7,7 +7,6 @@ $(document).ready(function() {
     // var squares = document.querySelectorAll('td')
     var currentPlayer = '🐱';
     
-    console.log(squares)
     function clearBoard() {
         // squares.each(square => {
         //     squares[square].textContent = ''
